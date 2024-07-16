@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/images\ \(3\).jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero .container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color:black;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color:darkblue
+}
+
+.hero .btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+    .hero.btn:before {
+
+        animation: rotate 2s infinite linear;
+        filter: blur(20px);
+        }
+
+
+section {
+    padding: 2rem 1rem;
+    background-color: white;
+}
+
+section .container {
+    max-width: 600px;
+    margin: 0 2rem;
+}
+#about{
+background-color:#1A5C73;
+color: #fff;
+width:40%;
+}
+span{
+    color:orangered;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wra;
+}
+
+.service {
+    flex: 1;
+    min-width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+#contacts{
+align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+form button {
+    padding: 0.75rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+img {
+padding:right;
+max-width:200px;
+}
